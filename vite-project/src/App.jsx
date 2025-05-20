@@ -4,6 +4,7 @@ import CheckNews from './component/CheckNews';
 import Navbar from './component/navbar';
 import CheckAds from './component/CheckAds';
 import Customer from './component/customer';
+import Employee from './component/Employee';
 // เพิ่มคอมโพเนนต์อื่น ๆ ตามต้องการ
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <Route path="/CheckNews" element={<CheckNews />} />
       <Route path="/CheckAds" element={<CheckAds />} />
       <Route path="/Customer" element={<Customer />} />
+      <Route path="/Employee" element={<Employee />} />
       {/* เพิ่ม Route อื่น ๆ */}
     </Routes>
 

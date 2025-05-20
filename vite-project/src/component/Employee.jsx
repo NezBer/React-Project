@@ -7,10 +7,10 @@ const customers = [
   { id: '604123', name: 'นาย.xxxxxx xxxxxxx' }
 ];
 
-export default function CustomerTable() {
+export default function Employee() {
   return (
     <>
-<header className="topbar">ลูกค้า</header>
+<header className="topbar">พนักงาน</header>
             <div className="main">
         <div className="search-bar">
           <span style={{ marginRight: '8px' }}>🔍</span>
@@ -49,3 +49,5 @@ export default function CustomerTable() {
     </>
   );
 }
+
+

@@ -1,13 +1,20 @@
 .list-container {
-  padding: 20px;
-  width: 100vw;              /* เต็มความกว้างหน้าจอ */
-  box-sizing: border-box;    /* รวม padding เข้าไปใน width */
-  font-family: sans-serif;
-  padding-top: 10px;
-  padding-left: 10px;
-  padding-right: 1%;
-  background-color: #e4eeea;
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  overflow-x: auto;
+  max-width: 100%;
+  padding-left: 1%;
+  margin-top: 1%;
+  margin-left: 20px;
 }
+
+.search-bar {
+  margin-left: 20px;
+
+}
+
 
 
 .list-header,
@@ -21,7 +28,7 @@
   align-items: center;
   margin-bottom: 10px;
   box-shadow: 0 2px 4px rgba(0,0,0,0.05);
-  width: 87%;
+  width: 100%;
   
 }
 

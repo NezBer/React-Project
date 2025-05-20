@@ -61,7 +61,10 @@
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   overflow-x: auto;
   max-width: 100%;
-  padding-left: 14%;
+  padding-left: 10  px;
+  margin-top: 1%;
+  margin-left: 20px;
+  
 }
 
 /* ===== Table Styles ===== */

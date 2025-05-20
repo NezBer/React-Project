@@ -8,7 +8,7 @@ export default function Navbar() {
       <Link to="/CheckNews">ตรวจสอบข่าว</Link>
       <Link to="/CheckAds">ตรวจสอบโฆษณา</Link>
       <Link to="/Customer">ลูกค้า</Link>
-      <Link to="#">พนักงาน</Link>
+      <Link to="/Employee">พนักงาน</Link>
       <Link to="#" className="logout">ออกจากระบบ</Link>
     </div>
   );
