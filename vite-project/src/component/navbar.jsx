@@ -10,7 +10,6 @@ export default function Navbar() {
       <Link to="/Customer">ลูกค้า</Link>
       <Link to="#">พนักงาน</Link>
       <Link to="#" className="logout">ออกจากระบบ</Link>
-      <Link to="#" className="logout">ออกจากระบบ</Link>
     </div>
   );
 }
