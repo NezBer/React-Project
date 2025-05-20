@@ -16,8 +16,6 @@ function App() {
       <Route path="/CheckNews" element={<CheckNews />} />
       <Route path="/CheckAds" element={<CheckAds />} />
       <Route path="/Customer" element={<Customer />} />
-      
-
       {/* เพิ่ม Route อื่น ๆ */}
     </Routes>
 

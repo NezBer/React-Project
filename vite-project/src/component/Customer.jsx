@@ -10,41 +10,42 @@ const customers = [
 function CustomerTable() {
   return (
     <>
-      <header className="topbar">Admin</header>
-
-      <div className="main">
+<header className="topbar">ตรวจสอบโฆษณา</header>
+            <div className="main">
         <div className="search-bar">
           <span style={{ marginRight: '8px' }}>🔍</span>
           <input type="text" placeholder="ค้นหา" />
-          <span id="search-star" style={{ marginLeft: 'auto', cursor: 'pointer' }}>☆</span>
-        </div>
+          <span id="search-star" style={{ marginLeft: 'auto', cursor: 'pointer' }}></span>
+        </div>  
 
-        <div className="customer-container">
-          <table className="customer-table">
-            <thead>
-              <tr>
-                <th>รหัสลูกค้า</th>
-                <th>ชื่อ-นามสกุล</th>
-              </tr>
-            </thead>
-            <tbody>
-              {customers.map((customer, index) => (
-                <tr key={index}>
-                  <td>
-                    <input type="text" value={customer.id} readOnly />
-                  </td>
-                  <td>
-                    <input type="text" value={customer.name} readOnly />
-                  </td>
-                  <td>
-                    <button className="info-button">ข้อมูลทั้งหมด</button>
-                  </td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
-        </div>
-      </div> {/* ✅ ปิด <div className="main"> ให้ถูกต้อง */}
+  <div className="alt-customer-container">
+    <table className="alt-customer-table">
+      <thead>
+        <tr>
+          <th>รหัสลูกค้า</th>
+          <th>ชื่อ-นามสกุล</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+        {customers.map((customer, index) => (
+          <tr key={index}>
+            <td>
+              <input type="text" value={customer.id} readOnly />
+            </td>
+            <td>
+              <input type="text" value={customer.name} readOnly />
+            </td>
+            <td>
+              <button className="alt-info-button">ข้อมูลทั้งหมด</button>
+            </td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+</div>
+
     </>
   );
 }
